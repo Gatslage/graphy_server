@@ -16,16 +16,16 @@
 # For more examples, including how to limit scans to only high-severity issues
 # and fail PR checks, see https://github.com/snyk/actions/
 
-name: Snyk Security
+#name: Snyk Security
 
-on:
-  push:
-    branches: ["main" ]
-  pull_request:
-    branches: ["main"]
+#on:
+  #push:
+    #branches: ["main" ]
+  #pull_request:
+    #branches: ["main"]
 
-permissions:
-  contents: read
+#permissions:
+#  contents: read
 
 jobs:
   snyk:
